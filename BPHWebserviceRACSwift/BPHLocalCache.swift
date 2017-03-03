@@ -75,8 +75,6 @@ class BPHLocalCache {
     }
 
     private func _getFileNameFor(key: String) -> String {
-        let path = diskPath.appendingFormat("/%@", key.md5())
-        NSLog("filePath: %@", path)
-        return path
+        return diskPath.appendingFormat("/%@", key.md5())
     }
 }

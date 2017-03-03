@@ -9,7 +9,7 @@
 @testable import BPHWebserviceRACSwift
 import XCTest
 
-class BPHWebserviceRACSwiftTests: XCTestCase {
+class BPHLocalCacheTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
