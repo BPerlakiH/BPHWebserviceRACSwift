@@ -11,9 +11,8 @@ import XCTest
 
 class WSHelperTest: XCTestCase {
 
-    let helper = WSHelper()
     let method = "posts"
-    let baseUrl = "https://jsonplaceholder.typicode.com"
+    let helper = WSHelper(baseURI: "https://jsonplaceholder.typicode.com")
 
     override func setUp() {
         super.setUp()
@@ -31,9 +30,9 @@ class WSHelperTest: XCTestCase {
         let argument = ["page": 1]
         let arguments = ["page": 1, "limit": 10]
 
-        let methodOnlyKey = self.helper.getKeyFor(method: method)
-        let methodAndParamKey = self.helper.getKeyFor(method: method, arguments: argument)
-        let methodAndParamsKey = self.helper.getKeyFor(method: method, arguments: arguments)
+        let methodOnlyKey = helper.getKeyFor(method: method)
+        let methodAndParamKey = helper.getKeyFor(method: method, arguments: argument)
+        let methodAndParamsKey = helper.getKeyFor(method: method, arguments: arguments)
         XCTAssertNotNil(methodOnlyKey)
         XCTAssertEqual(methodOnlyKey, method) //pure method calls should have the method as the key
         XCTAssertNotNil(methodAndParamKey)
@@ -62,8 +61,33 @@ class WSHelperTest: XCTestCase {
         }
     }
 
+    func testQueryBuilding() {
+        let testValues = [
+            (["page": 1], "?page=1"),
+            (["page": 2], "?page=2"),
+            ([2: "page"], "?2=page"),
+            (["page": 1, "limit": 2], "?page=1&limit=2"),
+            (["pages": "All", "limit": "2", "testing": false], "?pages=All&limit=2&testing=false")
+        ]
+        testValues.forEach { (arguments, expValue) in
+            XCTAssertEqual(helper.toQueryString(arguments: arguments as? [AnyHashable: AnyHashable]), expValue)
+        }
+//        helper.toQ
+    }
+
     func testRequestCreation() {
-        let getRequest = helper.buildGetRequest(baseUrl: baseUrl, method: method, arguments: nil)
+        helper.baseURI = "https://test.com"
+        //GET
+        let getRequest: URLRequest = helper.get(method: method, arguments: nil)
+        XCTAssertEqual(getRequest.httpMethod, "GET")
+
+        do {
+            let args = ["title": "foo", "body": "bar", "userId": 1] as [AnyHashable : AnyHashable]
+            let postRequest: URLRequest = try helper.post(method: method, arguments: args)
+            XCTAssertEqual(postRequest.httpMethod, "POST")
+        } catch {
+            XCTFail("invalid post request")
+        }
     }
 
 //    func testPerformanceExample() {
