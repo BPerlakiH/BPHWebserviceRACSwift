@@ -40,7 +40,6 @@ class WSHelperTest: XCTestCase {
         XCTAssertNotEqual(methodOnlyKey, methodAndParamKey)
         XCTAssertNotEqual(methodOnlyKey, methodAndParamsKey)
         XCTAssertNotEqual(methodAndParamKey, methodAndParamsKey)
-//        NSLog("%@,%@,%@", methodOnlyKey, methodAndParamKey, methodAndParamsKey)
 
         //ensure difference in params or values creates different results
         let staticValue = "startValue"
@@ -65,14 +64,13 @@ class WSHelperTest: XCTestCase {
         let testValues = [
             (["page": 1], "?page=1"),
             (["page": 2], "?page=2"),
-            ([2: "page"], "?2=page"),
             (["page": 1, "limit": 2], "?page=1&limit=2"),
-            (["pages": "All", "limit": "2", "testing": false], "?pages=All&limit=2&testing=false")
+            (["testing": false, "limit": "2", "pages": "All"], "?testing=false&limit=2&pages=All"),
+            (["lat": 54.1199, "lon": 51.1399], "?lat=54.1199&lon=51.1399")
         ]
         testValues.forEach { (arguments, expValue) in
-            XCTAssertEqual(helper.toQueryString(arguments: arguments as? [AnyHashable: AnyHashable]), expValue)
+            XCTAssertEqual(helper.toQueryString(arguments: arguments), expValue)
         }
-//        helper.toQ
     }
 
     func testRequestCreation() {
@@ -82,19 +80,12 @@ class WSHelperTest: XCTestCase {
         XCTAssertEqual(getRequest.httpMethod, "GET")
 
         do {
-            let args = ["title": "foo", "body": "bar", "userId": 1] as [AnyHashable : AnyHashable]
+            let args = ["title": "foo", "body": "bar", "userId": 1] as [String : Any]
             let postRequest: URLRequest = try helper.post(method: method, arguments: args)
             XCTAssertEqual(postRequest.httpMethod, "POST")
         } catch {
             XCTFail("invalid post request")
         }
     }
-
-//    func testPerformanceExample() {
-//        // This is an example of a performance test case.
-//        self.measure {
-//            // Put the code you want to measure the time of here.
-//        }
-//    }
 
 }

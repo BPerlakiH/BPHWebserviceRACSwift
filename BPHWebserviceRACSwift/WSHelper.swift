@@ -22,21 +22,21 @@ class WSHelper {
         return getKeyFor(method: method, arguments: nil)
     }
 
-    public func getKeyFor(method: String, arguments: [AnyHashable: AnyHashable]? ) -> String {
+    public func getKeyFor(method: String, arguments: [String : Any]? ) -> String {
         let reducedToString = arguments?.reduce(method, { (key, value) -> String in
-            return String(key).appendingFormat("_%@", String(describing: value))
+            return key.appendingFormat("_%@", String(describing: value))
         })
         return reducedToString ?? method
     }
 
-    public func get(method: String, arguments: [AnyHashable: AnyHashable]? ) -> URLRequest {
+    public func get(method: String, arguments: [String : Any]? ) -> URLRequest {
         var request = _getRequest(method: method)
         request.httpMethod = "GET"
-        request.url?.appendPathComponent(toQueryString(arguments: arguments))
+        request.url!.appendPathComponent(toQueryString(arguments: arguments))
         return request
     }
 
-    public func post(method: String, arguments: [AnyHashable: AnyHashable]? ) throws -> URLRequest {
+    public func post(method: String, arguments: [String : Any]? ) throws -> URLRequest {
         var request = _getRequest(method: method)
         request.httpMethod = "POST"
         try request.httpBody = JSONSerialization.data(withJSONObject: arguments!, options: [])
@@ -51,12 +51,17 @@ class WSHelper {
         return request
     }
 
-    public func toQueryString(arguments: [AnyHashable: AnyHashable]?) -> String {
+    public func toQueryString(arguments: [String: Any]?) -> String {
         if arguments == nil {
             return ""
         }
-        return arguments!.reduce("?", { (key, value) -> String in
-            return String(key).appendingFormat("=%@", String(describing: value))
-        })
+        var urlComponents = URLComponents(string: "") //the base uri doesn't matter at this point
+        if urlComponents == nil {
+            return ""
+        }
+        urlComponents?.queryItems = arguments!.map { (name: String, value: Any) -> URLQueryItem in
+            return URLQueryItem(name: name, value: "\(value)")
+        }
+        return "?".appending(urlComponents!.query!)
     }
 }
