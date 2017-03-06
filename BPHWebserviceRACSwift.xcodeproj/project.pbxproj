@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CB2AD921E6CDEEF002D0CC7 /* WebserviceRAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2AD911E6CDEEF002D0CC7 /* WebserviceRAC.swift */; };
+		1CB2AD931E6CDEEF002D0CC7 /* WebserviceRAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2AD911E6CDEEF002D0CC7 /* WebserviceRAC.swift */; };
 		1CD436781E68CC9000B244F3 /* WSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD436771E68CC9000B244F3 /* WSHelper.swift */; };
 		1CD436791E68CC9000B244F3 /* WSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD436771E68CC9000B244F3 /* WSHelper.swift */; };
 		1CD4367B1E68CD2A00B244F3 /* WSHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4367A1E68CD2A00B244F3 /* WSHelperTests.swift */; };
@@ -30,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CB2AD911E6CDEEF002D0CC7 /* WebserviceRAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceRAC.swift; sourceTree = "<group>"; };
 		1CD436771E68CC9000B244F3 /* WSHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSHelper.swift; sourceTree = "<group>"; };
 		1CD4367A1E68CD2A00B244F3 /* WSHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSHelperTests.swift; sourceTree = "<group>"; };
 		1CFABBF31E02ED12004D8762 /* BPHWebserviceRACSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BPHWebserviceRACSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +98,7 @@
 				1CFABBF71E02ED12004D8762 /* Info.plist */,
 				1CFABC0D1E02EE5F004D8762 /* BPHLocalCache.swift */,
 				1CD436771E68CC9000B244F3 /* WSHelper.swift */,
+				1CB2AD911E6CDEEF002D0CC7 /* WebserviceRAC.swift */,
 			);
 			path = BPHWebserviceRACSwift;
 			sourceTree = "<group>";
@@ -356,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFABC0E1E02EE5F004D8762 /* BPHLocalCache.swift in Sources */,
+				1CB2AD921E6CDEEF002D0CC7 /* WebserviceRAC.swift in Sources */,
 				1CD436781E68CC9000B244F3 /* WSHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD436791E68CC9000B244F3 /* WSHelper.swift in Sources */,
+				1CB2AD931E6CDEEF002D0CC7 /* WebserviceRAC.swift in Sources */,
 				1CD4367B1E68CD2A00B244F3 /* WSHelperTests.swift in Sources */,
 				1CFABC021E02ED13004D8762 /* BPHLocalCacheTests.swift in Sources */,
 				1CFABC0F1E02EE5F004D8762 /* BPHLocalCache.swift in Sources */,
