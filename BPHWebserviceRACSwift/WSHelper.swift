@@ -2,7 +2,7 @@
 //  BPHWebServiceHelper.swift
 //  BPHWebserviceRACSwift
 //
-//  Created by Anna Perlaki-Horvath on 02/03/17.
+//  Created by Balazs Perlaki-Horvath on 02/03/17.
 //  Copyright © 2017 perlakidigital. All rights reserved.
 //
 
