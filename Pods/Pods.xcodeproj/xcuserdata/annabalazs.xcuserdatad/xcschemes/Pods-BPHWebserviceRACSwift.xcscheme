@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A12489C9CE84D998F2B65D753E8ED0BC"
+               BlueprintIdentifier = "93901B7C8A7F18ADE73A1DA83DF20097"
                BuildableName = "Pods_BPHWebserviceRACSwift.framework"
                BlueprintName = "Pods-BPHWebserviceRACSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A12489C9CE84D998F2B65D753E8ED0BC"
+            BlueprintIdentifier = "93901B7C8A7F18ADE73A1DA83DF20097"
             BuildableName = "Pods_BPHWebserviceRACSwift.framework"
             BlueprintName = "Pods-BPHWebserviceRACSwift"
             ReferencedContainer = "container:Pods.xcodeproj">

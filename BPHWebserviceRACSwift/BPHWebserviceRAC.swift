@@ -40,7 +40,8 @@ class BPHWebserviceRAC {
             let session: URLSession = URLSession.shared
             //set the cookie storage if any
             URLSessionConfiguration.default.httpCookieStorage = BPHWebserviceRAC.cookieStorage
-            let task = session.dataTask(with: request, completionHandler: { (data: Data?, response: URLResponse?, error: Error?) in
+            let task = session.dataTask(with: request, completionHandler: {
+                (data: Data?, response: URLResponse?, error: Error?) in
                 if error != nil {
                     observer.on(.error(error!))
                 } else if data == nil {

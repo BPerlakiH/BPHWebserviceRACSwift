@@ -14,10 +14,7 @@
 		1CD436791E68CC9000B244F3 /* BPHWSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD436771E68CC9000B244F3 /* BPHWSHelper.swift */; };
 		1CD4367B1E68CD2A00B244F3 /* BPHWSHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4367A1E68CD2A00B244F3 /* BPHWSHelperTests.swift */; };
 		1CFABBFD1E02ED13004D8762 /* BPHWebserviceRACSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFABBF31E02ED12004D8762 /* BPHWebserviceRACSwift.framework */; };
-		1CFABC021E02ED13004D8762 /* BPHLocalCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFABC011E02ED13004D8762 /* BPHLocalCacheTests.swift */; };
 		1CFABC041E02ED13004D8762 /* BPHWebserviceRACSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFABBF61E02ED12004D8762 /* BPHWebserviceRACSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CFABC0E1E02EE5F004D8762 /* BPHLocalCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFABC0D1E02EE5F004D8762 /* BPHLocalCache.swift */; };
-		1CFABC0F1E02EE5F004D8762 /* BPHLocalCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFABC0D1E02EE5F004D8762 /* BPHLocalCache.swift */; };
 		692077F68939418802B2E805 /* Pods_BPHWebserviceRACSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B55659CDC7868E80AF7F3B2 /* Pods_BPHWebserviceRACSwiftTests.framework */; };
 		8E22857F59A8B54E1C68D4BA /* Pods_BPHWebserviceRACSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD62BD5AA6ABC7C304C8C47 /* Pods_BPHWebserviceRACSwift.framework */; };
 /* End PBXBuildFile section */
@@ -41,9 +38,7 @@
 		1CFABBF61E02ED12004D8762 /* BPHWebserviceRACSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPHWebserviceRACSwift.h; sourceTree = "<group>"; };
 		1CFABBF71E02ED12004D8762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CFABBFC1E02ED13004D8762 /* BPHWebserviceRACSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPHWebserviceRACSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CFABC011E02ED13004D8762 /* BPHLocalCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPHLocalCacheTests.swift; sourceTree = "<group>"; };
 		1CFABC031E02ED13004D8762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CFABC0D1E02EE5F004D8762 /* BPHLocalCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPHLocalCache.swift; sourceTree = "<group>"; };
 		49A3E57F0BC4BDF27089643E /* Pods-BPHWebserviceRACSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BPHWebserviceRACSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BPHWebserviceRACSwift/Pods-BPHWebserviceRACSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		52BADBC3AB9E357E52B738E2 /* Pods-BPHWebserviceRACSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BPHWebserviceRACSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BPHWebserviceRACSwiftTests/Pods-BPHWebserviceRACSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		58FB61AAD90CD7AE1A2530E7 /* Pods-BPHWebserviceRACSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BPHWebserviceRACSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BPHWebserviceRACSwift/Pods-BPHWebserviceRACSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,7 +93,6 @@
 			children = (
 				1CFABBF61E02ED12004D8762 /* BPHWebserviceRACSwift.h */,
 				1CFABBF71E02ED12004D8762 /* Info.plist */,
-				1CFABC0D1E02EE5F004D8762 /* BPHLocalCache.swift */,
 				1CD436771E68CC9000B244F3 /* BPHWSHelper.swift */,
 				1CB2AD911E6CDEEF002D0CC7 /* BPHWebserviceRAC.swift */,
 			);
@@ -108,7 +102,6 @@
 		1CFABC001E02ED13004D8762 /* BPHWebserviceRACSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				1CFABC011E02ED13004D8762 /* BPHLocalCacheTests.swift */,
 				1CD4367A1E68CD2A00B244F3 /* BPHWSHelperTests.swift */,
 				1C2F0FE91E70F930002FF3BE /* BPHWebserviceRACTests.swift */,
 				1CFABC031E02ED13004D8762 /* Info.plist */,
@@ -362,7 +355,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CFABC0E1E02EE5F004D8762 /* BPHLocalCache.swift in Sources */,
 				1CB2AD921E6CDEEF002D0CC7 /* BPHWebserviceRAC.swift in Sources */,
 				1CD436781E68CC9000B244F3 /* BPHWSHelper.swift in Sources */,
 			);
@@ -375,9 +367,7 @@
 				1CD436791E68CC9000B244F3 /* BPHWSHelper.swift in Sources */,
 				1CB2AD931E6CDEEF002D0CC7 /* BPHWebserviceRAC.swift in Sources */,
 				1CD4367B1E68CD2A00B244F3 /* BPHWSHelperTests.swift in Sources */,
-				1CFABC021E02ED13004D8762 /* BPHLocalCacheTests.swift in Sources */,
 				1C2F0FEA1E70F930002FF3BE /* BPHWebserviceRACTests.swift in Sources */,
-				1CFABC0F1E02EE5F004D8762 /* BPHLocalCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,7 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E81D5026511C5038CB898A0C /* Pods-BPHWebserviceRACSwiftTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 677EPPVYV4;
 				INFOPLIST_FILE = BPHWebserviceRACSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -554,7 +544,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52BADBC3AB9E357E52B738E2 /* Pods-BPHWebserviceRACSwiftTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 677EPPVYV4;
 				INFOPLIST_FILE = BPHWebserviceRACSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
