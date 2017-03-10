@@ -8,7 +8,7 @@
 
 import Foundation
 
-class WSHelper {
+class BPHWSHelper {
 
     public var cachePolicy: NSURLRequest.CachePolicy = URLRequest.CachePolicy.reloadRevalidatingCacheData
     public var baseURI: String = ""
@@ -22,21 +22,21 @@ class WSHelper {
         return getKeyFor(method: method, arguments: nil)
     }
 
-    public func getKeyFor(method: String, arguments: [String : Any]? ) -> String {
+    public func getKeyFor(method: String, arguments: [AnyHashable : Any]? ) -> String {
         let reducedToString = arguments?.reduce(method, { (key, value) -> String in
             return key.appendingFormat("_%@", String(describing: value))
         })
         return reducedToString ?? method
     }
 
-    public func get(method: String, arguments: [String : Any]? ) -> URLRequest {
+    public func get(method: String, arguments: [AnyHashable : Any]? ) -> URLRequest {
         var request = _getRequest(method: method)
         request.httpMethod = "GET"
         request.url!.appendPathComponent(toQueryString(arguments: arguments))
         return request
     }
 
-    public func post(method: String, arguments: [String : Any]? ) throws -> URLRequest {
+    public func post(method: String, arguments: [AnyHashable : Any]? ) throws -> URLRequest {
         var request = _getRequest(method: method)
         request.httpMethod = "POST"
         try request.httpBody = JSONSerialization.data(withJSONObject: arguments!, options: [])
@@ -51,7 +51,7 @@ class WSHelper {
         return request
     }
 
-    public func toQueryString(arguments: [String: Any]?) -> String {
+    public func toQueryString(arguments: [AnyHashable: Any]?) -> String {
         if arguments == nil {
             return ""
         }
@@ -59,8 +59,8 @@ class WSHelper {
         if urlComponents == nil {
             return ""
         }
-        urlComponents?.queryItems = arguments!.map { (name: String, value: Any) -> URLQueryItem in
-            return URLQueryItem(name: name, value: "\(value)")
+        urlComponents?.queryItems = arguments!.map { (name: AnyHashable, value: Any) -> URLQueryItem in
+            return URLQueryItem(name: String(describing: name), value: "\(value)")
         }
         return "?".appending(urlComponents!.query!)
     }

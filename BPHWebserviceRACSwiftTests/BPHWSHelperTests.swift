@@ -9,10 +9,10 @@
 @testable import BPHWebserviceRACSwift
 import XCTest
 
-class WSHelperTest: XCTestCase {
+class BPHWSHelperTest: XCTestCase {
 
     let method = "posts"
-    let helper = WSHelper(baseURI: "https://jsonplaceholder.typicode.com")
+    let helper = BPHWSHelper(baseURI: "https://jsonplaceholder.typicode.com")
 
     override func setUp() {
         super.setUp()

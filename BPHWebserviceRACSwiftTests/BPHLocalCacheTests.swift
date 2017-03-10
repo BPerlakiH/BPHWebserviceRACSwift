@@ -90,17 +90,17 @@ class BPHLocalCacheTests: XCTestCase {
     }
 
     func testCacheValidTime() {
-        let cache: BPHLocalCache = BPHLocalCache(prefixValue: "test_prefix_1", validForSecValue: 2)
+        let cache: BPHLocalCache = BPHLocalCache(prefixValue: "test_prefix_1", validForSecValue: 3)
         let testData = "yrdfhjfj6786t".data(using: String.Encoding.unicode)
         let testKey = "my custom key"
         cache.writeData(data: testData!, key: testKey)
 
         XCTAssertTrue(cache.isDataFor(key: testKey))
 
-        sleep(1)
+        sleep(2)
         XCTAssertTrue(cache.isDataFor(key: testKey))
 
-        sleep(1)
+        sleep(2)
         //should be invalid after 2sec
         XCTAssertFalse(cache.isDataFor(key: testKey))
         cache.deleteDataFor(key: testKey)

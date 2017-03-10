@@ -49,5 +49,405 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+            timestampString = "510805550.026713"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "getObservableFromRequest(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwiftTests/BPHWebserviceRACTests.swift"
+            timestampString = "510782866.619603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "BPHWebserviceRACTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwiftTests/BPHWebserviceRACTests.swift"
+            timestampString = "510805353.22783"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "testGetRequest()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwift/BPHWSHelper.swift"
+            timestampString = "510792156.817873"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "get(method:arguments:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwiftTests.BPHWSHelper.get (method : Swift.String, arguments : Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; Foundation.URLRequest"
+                  moduleName = "BPHWebserviceRACSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWSHelper.swift"
+                  timestampString = "510803283.873626"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwift.BPHWSHelper.get (method : Swift.String, arguments : Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; Foundation.URLRequest"
+                  moduleName = "BPHWebserviceRACSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWSHelper.swift"
+                  timestampString = "510803284.225237"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "512">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwiftTests/BPHWebserviceRACTests.swift"
+            timestampString = "510805353.22783"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "testObservers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+            timestampString = "510805585.519993"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getObservableFromRequest(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwiftTests.BPHWebserviceRAC.((getObservableFromRequest in _A5B9E77151F30357E1354BAAEF19695B) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510805644.81431"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwift.BPHWebserviceRAC.((getObservableFromRequest in _8910808F734A2DF6E525ED84A33A9A7D) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510805645.213952"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+            timestampString = "510805606.186258"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getObservableFromRequest(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwiftTests.BPHWebserviceRAC.((getObservableFromRequest in _A5B9E77151F30357E1354BAAEF19695B) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510838552.313675"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwift.BPHWebserviceRAC.((getObservableFromRequest in _8910808F734A2DF6E525ED84A33A9A7D) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510838552.435861"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+            timestampString = "510805653.234753"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getObservableFromRequest(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwiftTests.BPHWebserviceRAC.((getObservableFromRequest in _A5B9E77151F30357E1354BAAEF19695B) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510843383.916947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "195">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwift.BPHWebserviceRAC.((getObservableFromRequest in _8910808F734A2DF6E525ED84A33A9A7D) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510843384.041046"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "195">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+            timestampString = "510805657.756562"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getObservableFromRequest(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwiftTests.BPHWebserviceRAC.((getObservableFromRequest in _A5B9E77151F30357E1354BAAEF19695B) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510843383.929384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwift.BPHWebserviceRAC.((getObservableFromRequest in _8910808F734A2DF6E525ED84A33A9A7D) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510843384.043096"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+            timestampString = "510805661.457941"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getObservableFromRequest(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwiftTests.BPHWebserviceRAC.((getObservableFromRequest in _A5B9E77151F30357E1354BAAEF19695B) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510843383.931683"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "2950">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwift.BPHWebserviceRAC.((getObservableFromRequest in _8910808F734A2DF6E525ED84A33A9A7D) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510843384.045047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "2950">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+            timestampString = "510805665.024235"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getObservableFromRequest(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwiftTests.BPHWebserviceRAC.((getObservableFromRequest in _A5B9E77151F30357E1354BAAEF19695B) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510843383.933789"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2381">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BPHWebserviceRACSwift.BPHWebserviceRAC.((getObservableFromRequest in _8910808F734A2DF6E525ED84A33A9A7D) (request : Foundation.URLRequest) -&gt; RxSwift.Observable&lt;Any&gt;).(closure #1).(closure #1)"
+                  moduleName = "BPHWebserviceRACSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annabalazs/dev/ios/BPHWebserviceRACSwift/BPHWebserviceRACSwift/BPHWebserviceRAC.swift"
+                  timestampString = "510843384.046995"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2381">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
