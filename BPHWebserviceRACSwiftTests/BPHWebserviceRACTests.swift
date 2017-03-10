@@ -57,8 +57,7 @@ class BPHWebserviceRACTests: XCTestCase {
                 .observeOn(MainScheduler.instance)
                 .subscribeOn(SerialDispatchQueueScheduler(internalSerialQueueName: "webservices"))
             .subscribe(onNext: {resultData in
-                if let data = resultData as? Dictionary<String, Any> {
-                    XCTAssertNotNil(data)
+                if let data = resultData as? [String: Any] {
                     XCTAssertEqual(data["postId"] as? Int32, 1)
                     XCTAssertEqual(data["id"] as? Int32, 1)
                     XCTAssertEqual(data["name"] as? String, "id labore ex et quam laborum")
